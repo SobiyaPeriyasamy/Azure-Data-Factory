@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Sobi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "141b1d0a-0cc2-422a-ad95-cdce9d13f321",
+		"tenantId": "fe6949ff-fe67-4648-9c4c-9b05f5f1be3f"
+	}
+}
