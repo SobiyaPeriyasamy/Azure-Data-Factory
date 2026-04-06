@@ -1,0 +1,9 @@
+{
+	"name": "githubcheckconnectADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0a3450b6-e114-4958-81bf-5916fbb8f7f7",
+		"tenantId": "fe6949ff-fe67-4648-9c4c-9b05f5f1be3f"
+	}
+}
