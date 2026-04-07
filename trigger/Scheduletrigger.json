@@ -1,0 +1,25 @@
+{
+	"name": "Scheduletrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "GitHub_to_Azure",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-04-06T10:06:00",
+				"endTime": "2026-04-07T10:10:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
