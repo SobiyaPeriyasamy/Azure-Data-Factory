@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-Sobi"
+		},
+		"DataLake_linkedservice_accountKey": {
+			"value": ""
+		},
+		"DataLake_linkedservice_properties_typeProperties_url": {
+			"value": "https://storgeaccountsobi.dfs.core.windows.net/"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"github_linked_Server_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"StorageEventsTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/411a77e2-4645-489a-8649-2a53be7de6e7/resourceGroups/SobiyaAzureSub/providers/Microsoft.Storage/storageAccounts/storgeaccountsobi"
+		}
+	}
+}
